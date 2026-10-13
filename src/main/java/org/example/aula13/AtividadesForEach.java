@@ -34,7 +34,6 @@ public class AtividadesForEach {
        //3. Com o array de notas {8, 6, 10, 7}, use for-each para somar
         //   todas e mostrar a soma e a média.
 
-        //NAO ENTENDI COMO FAZER
         int[] notas2 = {8,6,10,7};
        int somar = 0;
 
@@ -46,7 +45,7 @@ public class AtividadesForEach {
        //4. Com um array de nomes, use for-each e um if para contar quantos
            //   têm mais de 5 letras. Mostre o total. Dica: usem o metodo length.
 
-           //como eu faço pra nao rodar 5x?
+        //falta fazer para de rodar 5x
            String[] pokemons = {"Mini","Growlithe","Pikachu","Togepi","Piplup"};
            for(String pokemon : pokemons){
 
