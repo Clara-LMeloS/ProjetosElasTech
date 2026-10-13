@@ -6,10 +6,13 @@ public class Cachorro implements Animal {
     //   Crie a classe Cachorro que implementa ela e imprime "Au au!".
     //   Na Main, crie um cachorro e chame o metodo.
     @Override
-    public void emitirSom(){
+    public String emitirSom(){
         System.out.println("Au Au, Woof!");
+        return "Woof!";
     }
     @Override
-    public void miar() {
+    public String miar() {
+
+        return "Meow!";
     }
 }
