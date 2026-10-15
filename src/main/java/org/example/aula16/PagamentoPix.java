@@ -1,0 +1,8 @@
+package org.example.aula16;
+
+public class PagamentoPix implements Pagamento{
+    @Override
+    public void processarPagamento() {
+
+    }
+}
