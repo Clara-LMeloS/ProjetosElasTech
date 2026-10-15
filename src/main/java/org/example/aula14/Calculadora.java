@@ -2,11 +2,8 @@ package org.example.aula14;
 
 public class Calculadora {
 
-    //métodos: static void saudar(){
-//sout }
-
     void calcularArea(double lado) {
-        System.out.println("Lado ao quadrado: " + (lado * lado));
+        System.out.printf("Lado ao quadrado: " + (lado * lado));
      }
 
    void calcularArea(double base, double altura){

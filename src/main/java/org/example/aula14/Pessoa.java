@@ -8,4 +8,11 @@ public class Pessoa {
         System.out.println("Oi! Sou "
                 + nome + " e tenho " + idade + " anos.");
     }
+/*
+    static void mostrarFicha(Pessoa p) {
+        p.apresentar();
+
+   }
+
+ */
 }
