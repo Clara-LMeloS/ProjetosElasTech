@@ -30,7 +30,7 @@ public class RevisaoOperadores {
 
 
         System.out.println("\n*******Atividade3*******");
-    //Atividade3  não consegui implementar corretamente o porte -sempre me passa double de peso ou 0.0  -
+    //Atividade3
         System.out.println("Digite o peso do animal: ");
 
         if(animal.peso <10 ){
