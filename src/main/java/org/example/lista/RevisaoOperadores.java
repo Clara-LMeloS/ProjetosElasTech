@@ -2,17 +2,18 @@ package org.example.lista;
 
 import org.example.aula13.Animal;
 
+import java.util.ArrayDeque;
 import java.util.Scanner;
 
-public class RevisaoOperadores {
+public class RevisaoOperadores extends Pet{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Pet meuPet = null;
 
-        //Atividade1
+      //Atividade1
         PetShop animal = new PetShop();
         System.out.printf("FICHA DO PET: " + "\nNome: " + animal.nome
                 + "\nEspécie: " + animal.especie + "\nPeso: " + animal.peso);
-
 
 
         System.out.println("\n*******Atividade2*******");
@@ -32,6 +33,7 @@ public class RevisaoOperadores {
         System.out.println("\n*******Atividade3*******");
     //Atividade3
         System.out.println("Digite o peso do animal: ");
+      //  meuPet.definirPorte();
 
         if(animal.peso <10 ){
             animal.porte = "Pequeno";
@@ -39,12 +41,14 @@ public class RevisaoOperadores {
             animal.porte = "Médio";
         }else{
             animal.porte = "Grande";
+
         }
         System.out.printf("FICHA DO PET: "
                 + "\nNome: " + animal.nome
                 + "\nEspécie: " + animal.especie
                 + "\nPeso: " + animal.peso
                 + "\nPorte: " + animal.porte);
+
 
         System.out.println("\n*******Atividade4*******");
     //Atividade4
@@ -61,6 +65,30 @@ public class RevisaoOperadores {
               + "\nPeso: " + animalPet.peso
               + "\nPorte: " + animalPet.porte);
 
+
+    /*   System.out.println("\n*******Atividade5******\n");
+       //Atividade5
+        meuPet = new Pet();
+        System.out.println("Digite o peso do animal: " + sc.nextDouble());
+        meuPet.peso = meuPet.definirPorte();
+*/
+
+      //Atividade6
+        System.out.println("\n*******Atividade6******\n");
+
+        Pet[] pets = new Pet[5];
+        Pet mel = new Pet();
+        mel.nome = meuPet.nome;
+        pets[0] = mel;
+
+
+        pets[0] = meuPet;
+        pets[1] = animalPet;
+        pets[2] = animalPet;
+        pets[3] = animalPet;
+        pets[4] = animalPet;
+
+        System.out.println(pets[0].nome);
 
     }
 
