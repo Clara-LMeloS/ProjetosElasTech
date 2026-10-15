@@ -66,21 +66,18 @@ public class RevisaoOperadores extends Pet{
               + "\nPorte: " + animalPet.porte);
 
 
-    /*   System.out.println("\n*******Atividade5******\n");
+       System.out.println("\n*******Atividade5******");
        //Atividade5
         meuPet = new Pet();
         System.out.println("Digite o peso do animal: " + sc.nextDouble());
         meuPet.peso = meuPet.definirPorte();
-*/
+
 
       //Atividade6
-        System.out.println("\n*******Atividade6******\n");
-
+        System.out.println("\n*******Atividade6******");
         Pet[] pets = new Pet[5];
         Pet mel = new Pet();
-        mel.nome = meuPet.nome;
-        pets[0] = mel;
-
+        meuPet.nome = mel.nome;
 
         pets[0] = meuPet;
         pets[1] = animalPet;
@@ -88,7 +85,10 @@ public class RevisaoOperadores extends Pet{
         pets[3] = animalPet;
         pets[4] = animalPet;
 
-        System.out.println(pets[0].nome);
+        System.out.println("---PETS CADASTRADOS---");
+        for (Pet p : pets) {
+            System.out.println(p);
+        }
 
     }
 
