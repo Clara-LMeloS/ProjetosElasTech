@@ -7,14 +7,13 @@ public class Pet {
     String porte;
 
 
-    public double definirPorte(){
+    public String definirPorte(){
         if(peso <10 ){
-            porte = "Pequeno";
+           return  "Pequeno";
         }else if(peso <25){
-            porte = "Médio";
+            return  "Médio";
         }else{
-            porte = "Grande";
+            return  "Grande";
         }
-        return 0;
     }
 }
