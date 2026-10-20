@@ -211,9 +211,6 @@ public class RevisaoOperadores extends Pet {
                 }
             }
 
-            //Atividade8
-
-
         }
     }
 
