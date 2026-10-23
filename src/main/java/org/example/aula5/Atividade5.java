@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Atividade5 {
     public class Atividade5_Aula5 {
-        public static void main(String[] args) {
+        public void main(String[] args) {
 
             Scanner sc = new Scanner(System.in);
 
