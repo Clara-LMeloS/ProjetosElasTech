@@ -1,5 +1,7 @@
 package org.example.aula15;
 
+import lombok.Builder;
+
 public class AtividadeEncapsulamentoEModAcesso {
     public static void main(String[] args) {
 
