@@ -8,10 +8,6 @@ public class Voo {
     public void adicionarObservador(ObservadorVoo o) {
         this.observarVoo.add(o);
 
-        public void mudarStatus(String status){
 
         }
-
-
     }
-}
